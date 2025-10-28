@@ -3,6 +3,12 @@
 ### practical 10
 
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 === Sorted Singly Circular Linked List (SCLL) ===
 
 Menu:
@@ -53,6 +59,12 @@ Exiting program...
 ```
 ### 11
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 --- Employee DLL Menu ---
 1. Insert at Beginning
 2. Insert at End
@@ -226,6 +238,12 @@ Exiting.
 ```
 ### 12
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 === Polynomial Addition Program (3 variables: x, y, z) ===
 
 Menu:
@@ -270,6 +288,12 @@ Exiting program...
 ```
 ### 13
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 === Stack Implementation using Array ===
 
 Menu:
@@ -316,6 +340,12 @@ Exiting program...
 ```
 ### 14
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 === Stack Implementation using Linked List ===
 
 Menu:
@@ -362,6 +392,12 @@ Exiting program...
 ```
 ### 15
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 === Palindrome Check using Stack ===
 
 Menu:
@@ -397,6 +433,12 @@ Exiting program...
 ```
 ### 16
 ```
+SAKSHAM
+URN: 2435157
+CRN: 2415256
+D2 CSE-E1
+============
+
 === Postfix Expression Evaluation ===
 1. Evaluate Postfix Expression
 2. Exit
