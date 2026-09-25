@@ -7,8 +7,8 @@ def inline_images_to_base64(input_html_path, output_html_path):
     with open(input_html_path, 'r', encoding='utf-8') as f:
         html_content = f.read()
 
-    # Find all src="assets/..." matches
-    pattern = r'src=["\'](assets/[^"\']+)["\']'
+    # Find all src="assets/..." or src="https://cdn.jsdelivr.net/.../assets/..." matches
+    pattern = r'src=["\'](?:https://cdn\.jsdelivr\.net/gh/[^/]+/[^/]+/)?(assets/[^"\']+)["\']'
     
     def replacer(match):
         relative_path = match.group(1)
@@ -40,3 +40,4 @@ if __name__ == '__main__':
     input_file = os.path.join(base_dir, 'index.html')
     output_file = os.path.join(base_dir, 'index-embedded.html')
     inline_images_to_base64(input_file, output_file)
+
